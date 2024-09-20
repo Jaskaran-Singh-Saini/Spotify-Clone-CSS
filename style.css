@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Serif", serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.left {
+    width: 25vw;
+    padding: 11px;
+}
+
+.right {
+    width: 75vw;
+}
+
+.logo {
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+}
+
+.home ul li {
+    display: flex;
+    width: 34px;
+    margin: 10px;
+    list-style: none;
+    font-weight: bold;
+    align-items: center;
+
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+.heading {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    margin: 10px;
+    align-items: center;
+    font-weight: bold;
+}
+
+.heading img {
+    width: 35px;
+    padding-left: 10px;
+}
+
+.library {
+    min-height: 80vh;
+    position: relative;
+}
+
+h3 {
+    padding-left: 5px;
+}
+
+.footer {
+    display: flex;
+    font-size: 10px;
+    color: gray;
+    gap: 13px;
+    position: absolute;
+    bottom: 0;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: gray;
+
+}
+
+.right {
+    margin: 16px 0;
+    max-height: 100vh;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34, 34, 34);
+    height: 60px;
+    align-items: center;
+}
+
+.header>* {
+    padding: 20px;
+}
+
+.spotifyPlaylist {
+    padding: 10px;
+}
+
+.cardContainer {
+    margin: 30px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-height: 50vh;
+    overflow-y: scroll;
+    max-height: 70vh;
+}
+
+.card {
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #252525;
+    position: relative;
+}
+
+.card>* {
+    padding-top: 10px;
+}
+
+.card img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.play {
+    position: absolute;
+    top: 115px;
+    right: 17px;
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+.buttons > *{
+    margin: 0 12px;
+}
+
+.signupbtn {
+    background-color: black;
+    color: rgb(156, 148, 148);
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.signupbtn:hover {
+    font-size: 17px;
+    color: white;
+}
+
+.loginbtn {
+    background-color: white;
+    border-radius: 21px;
+    color: rgb(59, 58, 58);
+    font-weight: bold;
+    padding: 10px;
+    width: 79px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.loginbtn:hover {
+    font-weight: bold;
+    width: 79px;
+    color: black;
+    font-size: 17px;
+}
+.playbar{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(31, 54, 31);
+    width: 100%;
+    padding: 12px;
+}
+.songbtn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
